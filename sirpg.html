@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        *{
+            outline: 0px;
+            margin: 0px;
+            padding: 0px;
+        }
+        nav{
+            width: 100%;
+            height: 15vh;
+            background: burlywood;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        nav div{
+            color: chocolate;
+            font-size: 25px;
+        }
+        nav div:hover{
+            color: blue;
+            font-size: 29px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .ban{
+            width: 100%;
+            height: 85vh;
+            background: linear-gradient(rgb(145, 158, 76,0.7),rgba(205, 148, 100, 0.7)),url("1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cont
+        {
+            width: 60%;
+            height: 300px;
+            display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           gap:15px;
+        }
+        .cont h1{
+            font-size: 40px;
+            color: rgb(239, 174, 9);
+            text-transform: uppercase;
+
+        }
+        .cont p{
+            font-size: 25px;
+            color: aqua;
+        }
+        .cont button
+        {
+            border: 4px solid white ;
+            color: white;
+            background: transparent;
+            padding: 5px 20px;
+            border-radius: 10px;
+            cursor:pointer;
+        }
+        .loc{
+            width: 80%;
+            margin: auto;
+            background-color: rgb(197, 236, 236);
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap:20px;
+            padding: 25px 0px;
+        }
+        .loc>div{
+            width: 40%;
+            height: 200px;
+            background-color: cornsilk;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+      .loc  .img{
+        width: 80%;
+        height: 100px;
+
+        }
+        .loc .img  img{
+            width: 100%;
+            height: 100%;
+        }
+        .loc h1{
+            width: 100%;
+            text-align: center;
+        }
+        footer{
+            background-color: cyan;
+            width: 100%;
+            height: 25px;
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            font-style: italic;
+            padding: 3px 0px;
+            margin-top: 20px;
+        }
+    </style>
+   
+</head>
+<body>
+    <nav>
+        <div>Home</div>
+        <div>About</div>
+        <div>Login</div>
+        <div>Register</div>
+        <div>Contactus</div>
+    </nav>
+    <div class="ban">
+        <div class="cont">
+            <h1>place to visit</h1>
+            <p>good location with ......</p>
+            <button>Know more</button>
+
+        </div>
+
+    </div>
+    <div class="loc">
+        <h1>Location you can visit</h1>
+        <div class="l1">
+            <div class="img"><img src="1.jpg"/></div>
+            <p>Location1</p>
+            <button>Know more</button>
+
+        </div>
+        <div class="l2">
+            <div class="img"><img src="2.webp"/></div>
+            <p>Location2</p>
+            <button>Know more</button>
+        </div>
+        <div class="l3">
+            <div class="img"><img src="3.webp"/></div>
+            <p>Location3</p>
+            <button>Know more</button>
+        </div>
+        <div class="l4">
+            <div class="img"><img src="4.webp"/></div>
+            <p>Location4</p>
+            <button>Know more</button>
+        </div>
+        <div class="l5">
+            <div class="img"><img src="5.webp"/></div>
+            <p>Location5</p>
+            <button>Know more</button>
+        </div>
+
+    </div>
+    <footer>@copyrights for fsd5</footer>
+</body>
+</html>

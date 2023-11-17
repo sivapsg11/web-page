@@ -1,0 +1,166 @@
+
+*{
+    outline: 0px;
+    padding:0px;
+    margin: 0px;
+}
+nav{
+    width: 100%;
+    height:12vh;
+    background-color: darkred;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav div{
+    color: blanchedalmond;font-size: 20px;
+}
+nav div:hover{
+    color: rgb(236, 225, 23);
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.con{
+    width:100%;
+    height: 88vh;
+    background:linear-gradient(rgba(231, 195, 199, 0),rgb(35, 35, 52)),url("./images.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cont{
+    width: 800px;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    
+
+}
+.con h1{
+
+}
+.cont p{
+    color:whitesmoke;
+    text-align:center;
+}
+.cont button{
+    color: brown;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border:red, solid 5px;
+}
+.cont button:hover{
+    color:whitesmoke;
+    background-color:blue;
+    font-size: 20px;
+    border: rgb(80, 242, 80) solid 3px;
+    cursor: pointer;
+}
+.loc{
+    width: 80%;
+    background-color:bisque;
+    margin: auto; 
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:wrap;
+    align-items: center;
+    gap:20px;
+    padding: 25px 0px;
+    
+}
+.loc>h1{
+    width: 100%;
+    text-align: center;
+    
+}
+.loc>div{
+    width:40%;
+    height: 250px;
+    background-color: brown;
+
+}
+.loc .l1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.loc .l2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.loc .l3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.loc .l4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.loc .l1 h4{
+    font-size: 25px;
+    color: burlywood;
+}
+.loc .l1 button{
+    padding:0px 10px;
+    background-color:whitesmoke;
+    color:black;
+    border:blue solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.loc .l2 h4{
+    font-size: 25px;
+    color: burlywood;
+}
+.loc .l2 button{
+    padding:0px 10px;
+    background-color:whitesmoke;
+    color:black;
+    border:blue solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.loc .l3 h4{
+    font-size: 25px;
+    color: burlywood;
+}
+.loc .l3 button{
+    padding:0px 10px;
+    background-color:whitesmoke;
+    color:black;
+    border:blue solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.loc .l4 h4{
+    font-size: 25px;
+    color: burlywood;
+}
+.loc .l4 button{
+    padding:0px 10px;
+    background-color:whitesmoke;
+    color:black;
+    border:blue solid 2px;
+    border-radius: 20px;
+    cursor: pointer;
+}
